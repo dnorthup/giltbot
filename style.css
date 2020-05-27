@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+  width: 500px;
+  margin: auto;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+a{
+	text-decoration: none;
+}
+
+li {
+  color: yellow;
+  list-style-type: circle;
+}
+
+span {
+  background-color: yellow;
+  color: black;
+}
+
+p {
+	color:yellow;
+}
+
+article{
+	padding: 20px;
+	top:300px;
+	position: relative;
+}
+
+header{
+	padding: 20px;
+	top:80px;
+	width: 500px;
+  	margin: auto;
+  	text-align: center;
+	position: absolute;
+}
+#cursor {
+  background: yellow;
+  line-height: 17px;
+  margin-left: 3px;
+  -webkit-animation: blink 0.8s infinite;
+  width: 7px;
+  height: 15px;
+}
+
+@-webkit-keyframes blink {
+  0% {background: #222}
+  50% {background: yellow}
+  100% {background: #222}
+}
